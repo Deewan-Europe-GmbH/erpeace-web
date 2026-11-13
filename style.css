@@ -55,6 +55,8 @@ footer a{color:var(--muted)}
 .legal{padding:56px 0;max-width:760px}
 .legal h1{font-size:2rem}
 .legal h2{font-size:1.3rem;margin-top:1.6em}
+.legal a{overflow-wrap:anywhere}
+.legal li{margin-bottom:.5em}
 .todo{background:rgba(217,119,6,.18);border:1px dashed var(--amber);border-radius:6px;padding:0 6px}
 
 @media (max-width:760px){
