@@ -75,3 +75,9 @@ footer a{color:var(--muted)}
 .ext-hold{border:1px dashed var(--slate);border-radius:12px;padding:20px;text-align:center;color:var(--muted)}
 .ext-hold .btn{font:inherit;font-weight:600;cursor:pointer;border:0}
 .cookie-settings{cursor:pointer}
+
+/* Accessibility (WCAG 2.2 AA) */
+.skip{position:absolute;left:8px;top:-80px;z-index:1000;padding:10px 16px;background:#0b1530;color:#fff;border-radius:6px;font-weight:600}
+.skip:focus{top:8px}
+:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
